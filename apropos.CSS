@@ -1,0 +1,15 @@
+section{
+    width: 450px;
+    height: 300px;
+    border: 8px solid #0a1f44;
+    border-radius: 20px;
+}
+.navbar {
+    background-color: #0a1f44;
+}
+.navbar-brand{
+    background-color: #0a1f44;
+}
+footer{
+    background-color: #0a1f44;
+}
