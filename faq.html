@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="faq.css">
+    <title>FAQ | Bibliothèque UPGI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark header-darkblue">
+  <div class="container">
+
+    <!-- Logo -->
+    <img src="IMG-20260122-WA0029.jpg" alt="" width="90" height="90">
+    <a class="navbar-brand fw-bold" href="#">BIBLIOTHEQUE</a>
+
+    <!-- Bouton mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><b>Acceuil</b></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="apropos.HTML"><b>A propos</b></a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            Pages
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="horaire.html"><b>horaire</b></a></li>
+            <li><a class="dropdown-item" href="faq.html"><b>FAQ</b></a></li>
+            <li><a class="dropdown-item" href="nouveauté.html"><b>nouveauté</b></a></li>
+            <li><a class="dropdown-item" href="présentation.html"><b>presentation</b></a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="service.html"><b>service</b></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="catalogue.html"><b>catalogue</b></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"><b>contact</b></a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- CONTENU FAQ -->
+<section class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="fw-bold text-primary">Foire Aux Questions (FAQ)</h1>
+        <p class="text-muted">
+            Retrouvez ici les réponses aux questions les plus fréquentes
+            concernant la Bibliothèque de l’UPGI.
+        </p>
+    </div>
+
+    <div class="accordion" id="faqAccordion">
+
+        <!-- Question 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq1">
+                    Qui peut accéder à la bibliothèque ?
+                </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    La bibliothèque est accessible aux étudiants, enseignants,
+                    chercheurs et au personnel administratif de l’UPGI.
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq2">
+                    Quels types de documents sont disponibles ?
+                </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    La bibliothèque dispose d’ouvrages académiques,
+                    de revues scientifiques, de mémoires, de thèses
+                    et de ressources numériques.
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq3">
+                    Peut-on emprunter des livres ?
+                </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Oui, l’emprunt est autorisé selon le règlement
+                    interne de la bibliothèque et la catégorie de l’usager.
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq4">
+                    Existe-t-il un catalogue en ligne ?
+                </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Oui, le catalogue en ligne permet de rechercher
+                    les ouvrages disponibles par titre, auteur ou domaine.
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq5">
+                    La bibliothèque propose-t-elle des espaces de travail ?
+                </button>
+            </h2>
+            <div id="faq5" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Oui, des espaces de lecture, de travail individuel
+                    et collaboratif sont mis à disposition des étudiants.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="footer-darkblue text-light pt-5 pb-3 mt-5">
+  <div class="container">
+      <!-- Contact -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Contact</h5>
+        <p class="small mt-3 mb-1">📍 Université UPGI</p>
+        <p class="small mb-1">📧 bibliotheque@upgi.</p>
+        <p class="small">📞 +243 099 XXX XXX</p>
+      </div>
+
+    </div>
+
+    <hr class="border-light">
+
+    <!-- Bas du footer -->
+    <div class="text-center small">
+      © 2026 Bibliothèque de l’UPGI — Tous droits réservés
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
