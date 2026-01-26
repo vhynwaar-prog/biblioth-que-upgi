@@ -2,9 +2,9 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="service.CSS">
+    <link rel="stylesheet" href="contact.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Services</title>
+    <title>Contact</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -68,77 +68,62 @@
 
 <div class="container mt-5">
 
-    <h2 class="mb-4">Nos Services</h2>
+    <h2 class="mb-4">Contact</h2>
     <p class="text-muted mb-4">
-        La bibliothèque propose une variété de services destinés à faciliter l’accès à la connaissance,
-        encourager la lecture et accompagner les usagers dans leurs recherches et projets.
+        Une question, une suggestion ou besoin d’informations supplémentaires ?  
+        N’hésitez pas à nous écrire. Notre équipe vous répondra dans les plus brefs délais.
     </p>
 
     <div class="row g-4">
 
-        <!-- Service 1 -->
-        <div class="col-md-4">
-            <div class="card p-3 shadow-sm h-100">
-                <h4>Prêt de livres</h4>
-                <p>
-                    Empruntez gratuitement des romans, essais, documents scientifiques, ouvrages scolaires
-                    et bien d’autres ressources. Le prêt est renouvelable selon disponibilité.
-                </p>
-            </div>
+        <!-- Formulaire -->
+        <div class="col-md-7">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label">Nom complet</label>
+                    <input type="text" class="form-control" placeholder="Votre nom">
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Adresse email</label>
+                    <input type="email" class="form-control" placeholder="exemple@mail.com">
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label">Sujet</label>
+                    <input type="text" class="form-control" placeholder="Objet de votre message">
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label">Message</label>
+                    <textarea class="form-control" rows="4" placeholder="Votre message..."></textarea>
+                </div>
+
+                <div class="col-12">
+                    <button class="btn btn-primary">Envoyer</button>
+                </div>
+            </form>
         </div>
 
-        <!-- Service 2 -->
-        <div class="col-md-4">
-            <div class="card p-3 shadow-sm h-100">
-                <h4>Espace de lecture</h4>
-                <p>
-                    Un espace calme, climatisé et équipé est mis à disposition pour lire, étudier ou travailler.
-                    Des zones individuelles et des tables de groupe sont disponibles.
-                </p>
-            </div>
-        </div>
+        <!-- Informations de contact -->
+        <div class="col-md-5">
+            <div class="p-3 border rounded shadow-sm bg-light">
+                <h5>Informations pratiques</h5>
+                <p class="mb-1"><strong>Adresse :</strong></p>
+                <p class="text-muted">Avenue de la Culture, Quartier Central, Kinshasa</p>
 
-        <!-- Service 3 -->
-        <div class="col-md-4">
-            <div class="card p-3 shadow-sm h-100">
-                <h4>Assistance à la recherche</h4>
-                <p>
-                    Nos bibliothécaires vous aident à trouver des ouvrages, effectuer des recherches documentaires
-                    ou utiliser les outils numériques mis à disposition.
-                </p>
-            </div>
-        </div>
+                <p class="mb-1"><strong>Téléphone :</strong></p>
+                <p class="text-muted">+243 820 000 000</p>
 
-        <!-- Service 4 -->
-        <div class="col-md-4">
-            <div class="card p-3 shadow-sm h-100">
-                <h4>Accès Internet & ordinateurs</h4>
-                <p>
-                    Des postes informatiques sont disponibles pour consulter Internet, rédiger des documents
-                    ou effectuer des recherches académiques.
-                </p>
-            </div>
-        </div>
+                <p class="mb-1"><strong>Email :</strong></p>
+                <p class="text-muted">contact@bibliotheque.cd</p>
 
-        <!-- Service 5 -->
-        <div class="col-md-4">
-            <div class="card p-3 shadow-sm h-100">
-                <h4>Ateliers & formations</h4>
-                <p>
-                    La bibliothèque organise régulièrement des ateliers d’écriture, des formations numériques,
-                    des conférences et des séances d’orientation académique.
-                </p>
-            </div>
-        </div>
-
-        <!-- Service 6 -->
-        <div class="col-md-4">
-            <div class="card p-3 shadow-sm h-100">
-                <h4>Clubs & activités culturelles</h4>
-                <p>
-                    Rejoignez nos clubs de lecture, nos rencontres littéraires et nos activités culturelles
-                    pour partager vos passions avec d’autres lecteurs.
-                </p>
+                <p class="mb-1"><strong>Horaires :</strong></p>
+                <ul class="text-muted">
+                    <li>Lundi – Vendredi : 8h00 – 18h00</li>
+                    <li>Samedi : 9h00 – 14h00</li>
+                    <li>Dimanche : Fermé</li>
+                </ul>
             </div>
         </div>
 
