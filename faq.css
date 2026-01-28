@@ -1,7 +1,10 @@
-.navbar {
+body{
+    background-color: black;
+}
+.navbar{
     background-color: #0a1f44;
 }
-.bg-primary text-white py-4 {
+footer{
     background-color: #0a1f44;
 }
 .nav-item:hover{

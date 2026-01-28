@@ -4,3 +4,15 @@
 footer{
     background-color: #0a1f44;
 }
+.nav-item:hover{
+    background-color: darkblue;
+    padding: 1px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px white;
+    font-weight: bold;
+    transition: 0.7s;
+    margin: 7px;
+}
+.nav-item{
+    margin: 5px;
+}
