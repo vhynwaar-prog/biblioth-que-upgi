@@ -119,14 +119,14 @@ section{
     border-radius: 10px;
 }
 .ABED{
-    width: 900px;
+    width: 910px;
     height: 700px;
     border: 8px solid transparent;
     margin: 0px 10px;
     overflow: hidden;
     box-shadow: 6px 6px 30px black;
     border-radius: 20px;
-    margin: 100px 40px;
+    margin: 100px 30px;
     background-color: #0b1c3d;
 }
 .ABED{
@@ -141,3 +141,4 @@ section{
     font-size: 30px;
 
 }
+
