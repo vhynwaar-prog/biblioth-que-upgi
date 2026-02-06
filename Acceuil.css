@@ -101,7 +101,7 @@ section{
     transition: 0.7s;
 }
 .ABED1 img{
-    width: 400px;
+    width: 430px;
     height: 475px;
     object-fit: cover;
     border: 10px solid aliceblue;
@@ -133,7 +133,7 @@ section{
     border-radius: 10px;
 }
 .ABED{
-    width: 930px;
+    width: 970px;
     height: 800px;
     border: 8px solid transparent;
     margin: 0px 10px;
@@ -155,3 +155,4 @@ section{
     font-size: 30px;
 
 }
+
