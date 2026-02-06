@@ -101,7 +101,7 @@ section{
 }
 .ABED1 img{
     width: 350px;
-    height: 350px;
+    height: 400px;
     object-fit: cover;
     border: 5px solid aliceblue;
     border-radius: 15px;
@@ -148,4 +148,5 @@ section{
 .ABED_ h3{
     font-size: 30px;
 }
+
 
