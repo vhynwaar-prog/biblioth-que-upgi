@@ -100,7 +100,7 @@ section{
     transition: 0.7s;
 }
 .ABED1 img{
-    width: 300px;
+    width: 280px;
     height: 400px;
     object-fit: cover;
     border: 5px solid aliceblue;
@@ -148,6 +148,7 @@ section{
 .ABED_ h3{
     font-size: 30px;
 }
+
 
 
 
